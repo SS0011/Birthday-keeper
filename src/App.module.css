@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+}
+.mainWrapper{
+  background-image: url(https://cdn.wallpapersafari.com/25/90/JkzeRi.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 98vh;
+  padding-top: 2rem;;
+}
+
+.main{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid;
+  height: 90vh;
+  width: 30%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(47, 144, 255);
+  box-shadow: 10px 10px 10px black;
+  
+}
+.link{
+  font-size: 1.2rem;
+  color: white;
+}
+.uploadAndPic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100px;
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+.picPreview{
+  border-radius: 50%;
+ 
+}
+.text{
+  height: 5vh;
+  width: 15vw;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+.btn{
+  height: 5vh;
+  width: 50%;
+  font-size: 1em;
+  border-radius: 20px;
+  background-color: chocolate;
+  color: white;
+}
+.btn:hover{
+  background-color: rgb(255, 0, 0);
+}
+.picInput{
+  height: 5vh;
+  width: 4vw;
+  font-size: 1.2rem;
+}
+.select{
+  height: 4vh;
+}
